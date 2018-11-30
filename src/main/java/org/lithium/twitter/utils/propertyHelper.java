@@ -21,7 +21,6 @@ public class propertyHelper {
                 return propertyValue;
             }
 
-            //load a properties file from class path, inside static method
             prop.load(input);
             propertyValue = prop.getProperty(property);
 

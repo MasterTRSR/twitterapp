@@ -1,5 +1,8 @@
 /Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/validators/validatorUtil.java
-/Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/resources/PostTweet.java
+/Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/models/Tweet.java
+/Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/resources/TweetResource.java
 /Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/utils/propertyHelper.java
+/Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/models/ErrorObject.java
+/Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/application/MyConfiguration.java
 /Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/services/TweetService.java
-/Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/resources/RetrieveTimeline.java
+/Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/application/MyApplication.java
