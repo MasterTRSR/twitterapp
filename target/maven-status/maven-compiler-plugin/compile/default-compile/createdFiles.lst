@@ -1,1 +1,5 @@
+org/lithium/twitter/resources/RetrieveTimeline.class
 org/lithium/twitter/resources/PostTweet.class
+org/lithium/twitter/utils/propertyHelper.class
+org/lithium/twitter/validators/validatorUtil.class
+org/lithium/twitter/services/TweetService.class
