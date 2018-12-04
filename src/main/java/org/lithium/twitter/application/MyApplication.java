@@ -1,11 +1,8 @@
 package org.lithium.twitter.application;
 
-import com.google.inject.Guice;
-import com.google.inject.Injector;
 import io.dropwizard.Application;
 import io.dropwizard.setup.Environment;
 import org.lithium.twitter.resources.TweetResource;
-import org.lithium.twitter.services.TweetService;
 
 public class MyApplication extends Application<MyConfiguration> {
 
@@ -15,13 +12,9 @@ public class MyApplication extends Application<MyConfiguration> {
 
 
     @Override
-    public void run(MyConfiguration myConfiguration, Environment environment) throws Exception {
-        final TweetResource resource = new TweetResource();
-        final TweetService service = new TweetService();
-//        Injector injector = Guice.createInjector(new AppInjector());
+    public void run(MyConfiguration myConfiguration, Environment environment){
 
-//        MyApplication app = injector.getInstance(MyApplication.class);
-        environment.jersey().register(resource);
-        environment.jersey().register(service);
+        environment.jersey().register(new MyApplicationBinder());
+        environment.jersey().register(new TweetResource());
     }
 }
