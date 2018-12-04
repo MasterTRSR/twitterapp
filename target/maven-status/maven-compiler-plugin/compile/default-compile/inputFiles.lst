@@ -6,3 +6,5 @@
 /Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/application/MyConfiguration.java
 /Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/services/TweetService.java
 /Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/application/MyApplication.java
+/Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/application/MyApplicationBinder.java
+/Users/sravan.reddy/IdeaProjects/twitterapp/src/main/java/org/lithium/twitter/application/AppInjector.java

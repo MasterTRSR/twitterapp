@@ -1,6 +1,8 @@
 org/lithium/twitter/application/MyApplication.class
 org/lithium/twitter/models/Tweet.class
+org/lithium/twitter/application/MyApplicationBinder.class
 org/lithium/twitter/validators/validatorUtil.class
+org/lithium/twitter/application/AppInjector.class
 org/lithium/twitter/utils/propertyHelper.class
 org/lithium/twitter/application/MyConfiguration.class
 org/lithium/twitter/models/ErrorObject.class
